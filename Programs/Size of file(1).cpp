@@ -1,21 +1,22 @@
-#include<fstream> 
-#include<iostream>
+#include <fstream>
+#include <iostream>
 #include <string>
 using namespace std;
-int main() 
+int main()
 {
 	char ch;
-	ifstream infile("Sizefile.txt",ios::in); 
-	int count=0;
-	if(!infile) 
+	ifstream infile("Sizefile.txt", ios::in);
+	int count = 0;
+	if (!infile)
 	{
-		cout<<"Error file doesnt exist \n"; 
+		cout << "Error file doesnt exist \n";
 		exit(0);
- 	}
-	while(!infile.eof()) 
+	}
+	while (!infile.eof())
 	{
-		if(infile.get(ch))
+		if (infile.get(ch))
 			count++;
 	}
-	cout<<"Size of file :"<<count<<endl;
+	cout << "Size of file :" << count << endl;
+	return 0;
 }

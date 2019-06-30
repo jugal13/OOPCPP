@@ -1,41 +1,45 @@
-#include<iostream> 
-using namespace std; 
+#include <iostream>
+using namespace std;
 class Student
 {
-	public: virtual void g()=0;
+public:
+	virtual void g() = 0;
 };
-class Engineering: public Student
+class Engineering : public Student
 {
-	public: void g()
-			{
-				cout<<"Welcome to engineering"<<endl;
-			}
+public:
+	void g()
+	{
+		cout << "Welcome to engineering" << endl;
+	}
 };
-class Medical: public Student 
+class Medical : public Student
 {
-	public: void g()
-			{
-				cout<<"Welcome to medical science"<<endl;
-			}
+public:
+	void g()
+	{
+		cout << "Welcome to medical science" << endl;
+	}
 };
-class Science: public Student 
+class Science : public Student
 {
-	public: void g()
-			{
-				cout<<"Welcome to pure science"<<endl;
-			}
+public:
+	void g()
+	{
+		cout << "Welcome to pure science" << endl;
+	}
 };
-int main() 
+int main()
 {
 	Student *S1;
 	Engineering E;
 	Medical M;
 	Science S;
-	S1=&E;
+	S1 = &E;
 	S1->g();
-	S1=&M;
+	S1 = &M;
 	S1->g();
-	S1=&S;
+	S1 = &S;
 	S1->g();
 	return 0;
 }
