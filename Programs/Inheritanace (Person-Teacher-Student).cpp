@@ -1,3 +1,10 @@
+// 9. Inheritance
+// 				Person |
+// 		| -------------- |
+// 	Teacher 				Student
+// 										 |
+// 										 |
+// 									 Marks
 #include <iostream>
 #include <string>
 using namespace std;

@@ -1,3 +1,4 @@
+// 28. Virtual Base Class
 #include <iostream>
 using namespace std;
 class A

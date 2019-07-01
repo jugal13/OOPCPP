@@ -1,3 +1,4 @@
+// 4. Passing paramters to base class constructor call
 #include <iostream>
 using namespace std;
 class MEDIA

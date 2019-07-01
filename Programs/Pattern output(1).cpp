@@ -1,7 +1,10 @@
+// 16. Convert Pattern to Required Format
+//      a2b3->aabbb
+//      a3b2d4e->aaabbddde
 #include <iostream>
 #include <string>
 #include <cstring>
-using namespace std;
+    using namespace std;
 int main()
 {
     char name[100];

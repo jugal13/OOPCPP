@@ -1,3 +1,4 @@
+// 2. Append file contents to another
 #include <iostream>
 #include <fstream>
 #include <string>

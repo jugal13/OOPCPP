@@ -1,3 +1,4 @@
+// 7. Complex number class
 #include <iostream>
 using namespace std;
 class COMPLEX

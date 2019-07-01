@@ -1,3 +1,4 @@
+// 26. Student UG PG
 #include <iostream>
 #include <string>
 using namespace std;
